@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  color: #fff;
+}
+.container {
+  margin: 10px;
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.datos .summary .foto{
+  border-radius: 50%;
+  box-shadow: 2px 2px 7px rgb(163,177, 198),
+              -2px -2px 7px rgb(163,177, 198),
+              -8px -8px 50px rgba(255, 255, 255, 0.8),
+              3px 3px 25px rgba(0,0 ,0,0.6),
+
+
+
+
+}
+.curriculum {
+  display: flex;
+  border-radius: 7px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: grey;
+
+}
+
+.datos {
+  border-radius: 7px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+}
+.history {
+  border-radius: 7px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  margin: 10px;
+  padding: 10px;
+  width: 450px;
+}
+.contact ul{
+  list-style: none;
+}
+.summary{
+  text-align: center;
+
+}
+.row{
+  display: flex;
+}
+.period{
+  width: 150px;
+  padding: 10px;
+}
+
+.task{
+  width: 300px;
+  padding: 10px;
+  border-left: 2px red solid;
+}
+.profile, .skill, .languajes,.contact{
+  border-top: 1px #fff solid;
+  margin-top: 10px;
+
+}
+  
