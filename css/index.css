@@ -80,7 +80,7 @@ body {
 
 .period {
   width: 150px;
-  padding:10px;
+  padding: 10px;
 }
 
 .task {
@@ -185,14 +185,9 @@ body {
   align-items: flex-start;
   width: 330px;
 }
-.h2-education{
-display: flex;
-height: 30px;
-margin-top: 5px;
-align-items: flex-start;
-
-
-
-
-
+.h2-education {
+  display: flex;
+  height: 30px;
+  margin-top: 5px;
+  align-items: flex-start;
 }
